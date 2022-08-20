@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8rem;
+}
+
+.background-container1 {
+    background-image: url(./img/bg.jpg);
+    height: 100vh;
+}
+
+.background-container2 {
+    background-image: url(./img/bg2.jpg);
+    height: 70vh;
+}
+
+.background-container3 {
+    background-image: url(./img/bg3.jpg);
+    height: 70vh;
+}
+
+.background-container4 {
+    background-image: url(./img/bg4.jpg);
+    height: 70vh;
+}
+
+.background-container1,
+.background-container2,
+.background-container3,
+.background-container4 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    opacity: 0.7;
+}
+
+.heading-container {
+    margin: auto;
+    display: flex;
+}
+
+.heading-container img {
+    width: 30%;
+    margin: auto;
+}
+
+.heading-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: white;
+    background-color: #000;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: 0.5rem inset purple;
+    outline-offset: 1rem;
+    line-height: 3.5rem;
+}
+
+.heading-capital{
+    text-transform: capitalize;
+    outline-offset: 0.2rem;
+}
+
+.section {
+    text-align: center;
+    padding: 3rem 5rem;
+}
+
+.section-light {
+    background-color: rgb(241, 241, 241);
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.section-heading {
+    padding: 1rem;
+}
+
